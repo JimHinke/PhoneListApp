@@ -107,7 +107,7 @@ namespace PhoneListApp
         }
         public void Print() //kommentar
         {
-            Console.WriteLine($"Namn: {fNamn} {eNamn}");
+            Console.WriteLine($"Namn: {fNamn} {eNamn}"); //kommentar2
             Console.WriteLine($"Adress: {adress}");
             Console.WriteLine($"Telefonnummer: {telefonnummer}");
             Console.WriteLine("");
