@@ -35,10 +35,6 @@ namespace PhoneListApp
                 Console.WriteLine("3. Visa telefonlist");
                 Console.WriteLine("4. Avsluta");
                 command = Console.ReadLine();
-                //if (command == "hjälp")
-                //{
-                //    Console.WriteLine($"Tyvärr ej implementerat!"); Skall jag lägga in något här?
-                //}
                 if (command == "1")
                 {
                     addPerson();
@@ -89,7 +85,7 @@ namespace PhoneListApp
             antalpersoner--;
             Console.WriteLine("---------------------------------");
             Console.Write("Skriv en siffra: ");
-            pos = int.Parse(Console.ReadLine()); //tog bort en int
+            pos = int.Parse(Console.ReadLine());
             for (int i = pos - 1; i < lista.Length - 1; i++)
             {
                 lista[i] = lista[i + 1];
@@ -108,10 +104,10 @@ namespace PhoneListApp
         }
         public void Print() //kommentar
         {
-            Console.WriteLine($"Namn: {fNamn} {eNamn}"); //kommentar2
-            Console.WriteLine($"Adress: {adress}"); //Kommentar 3
-            Console.WriteLine($"Telefonnummer: {telefonnummer}"); //kommentar 4
-            Console.WriteLine(""); //kommentar 5 och 6
+            Console.WriteLine($"Namn: {fNamn} {eNamn}");
+            Console.WriteLine($"Adress: {adress}");
+            Console.WriteLine($"Telefonnummer: {telefonnummer}");
+            Console.WriteLine("");
         }
 
         public void PrintForEfter()
