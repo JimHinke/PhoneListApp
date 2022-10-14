@@ -111,7 +111,7 @@ namespace PhoneListApp
             Console.WriteLine($"Namn: {fNamn} {eNamn}"); //kommentar2
             Console.WriteLine($"Adress: {adress}"); //Kommentar 3
             Console.WriteLine($"Telefonnummer: {telefonnummer}"); //kommentar 4
-            Console.WriteLine(""); //kommentar 5
+            Console.WriteLine(""); //kommentar 5 och 6
         }
 
         public void PrintForEfter()
