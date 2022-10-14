@@ -90,7 +90,6 @@ namespace PhoneListApp
             {
                 lista[i] = lista[i + 1];
             }
-
         }
         static void PrintAlla(PhoneListApp[] lista)
         {
@@ -109,13 +108,11 @@ namespace PhoneListApp
             Console.WriteLine($"Telefonnummer: {telefonnummer}");
             Console.WriteLine("");
         }
-
         public void PrintForEfter()
         {
             Console.WriteLine($" Namn: {fNamn} {eNamn}");
 
         }
-
     }
     internal class Program
     {
