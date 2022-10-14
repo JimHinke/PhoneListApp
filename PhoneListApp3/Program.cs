@@ -89,7 +89,7 @@ namespace PhoneListApp
             antalpersoner--;
             Console.WriteLine("---------------------------------");
             Console.Write("Skriv en siffra: ");
-            int pos = int.Parse(Console.ReadLine());
+            pos = int.Parse(Console.ReadLine()); //tog bort en int
             for (int i = pos - 1; i < lista.Length - 1; i++)
             {
                 lista[i] = lista[i + 1];
