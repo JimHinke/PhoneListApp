@@ -102,7 +102,7 @@ namespace PhoneListApp
                 }
             }
         }
-        public void Print() //kommentar
+        public void Print()
         {
             Console.WriteLine($"Namn: {fNamn} {eNamn}");
             Console.WriteLine($"Adress: {adress}");
