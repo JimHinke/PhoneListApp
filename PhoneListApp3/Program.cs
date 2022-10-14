@@ -37,7 +37,7 @@ namespace PhoneListApp
                 command = Console.ReadLine();
                 //if (command == "hjälp")
                 //{
-                //    Console.WriteLine($"Tyvärr ej implementerat!");
+                //    Console.WriteLine($"Tyvärr ej implementerat!"); Skall jag lägga in något här?
                 //}
                 if (command == "1")
                 {
