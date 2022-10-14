@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace PhoneListApp
 {
-    class PhoneListApp
+    class PhoneListApp//TEST
     {
         string fNamn;
         string eNamn;
